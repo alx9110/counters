@@ -1,9 +1,9 @@
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
-from smartcounters import create_app
+from counters import create_app
 
 
-app = create_app('smartcounters.config.DevelopmentConfig')
+app = create_app('counters.config.DevelopmentConfig')
 
 
 if __name__ == '__main__':

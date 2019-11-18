@@ -8,7 +8,7 @@ requirements = [
 ]
 
 setup(
-    name='smart-counters',
+    name='counters',
     version='0.1',
     author='Alexander Telkov',
     author_email='alx9110@yandex.ru',

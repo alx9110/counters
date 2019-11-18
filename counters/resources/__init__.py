@@ -1,6 +1,6 @@
 """Api"""
 from flask_restful import Api
-from smartcounters.resources.counters import Counter 
+from counters.resources.counters import Counter 
 
 
 def register_resources(app, prefix):
